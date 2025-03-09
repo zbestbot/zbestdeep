@@ -16,7 +16,7 @@ dp = Dispatcher()
 # Хэндлер для команды /start
 @dp.message(Command("start"))
 async def on_start(message: types.Message):
-    await message.answer("<b>Hello, I'm your baby!</b>", parse_mode=ParseMode.HTML)
+    await message.answer("<b>Hello, I'm your fucking sexy baby!</b>", parse_mode=ParseMode.HTML)
 
 # Устанавливаем webhook
 async def set_webhook():
